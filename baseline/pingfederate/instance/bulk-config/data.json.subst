@@ -40,6 +40,7 @@
             "items": [
                 {
                     "stringValue": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
+                    "stringValue": "true"
                     "id": "PingFederateDSJNDIName",
                     "type": "STRING"
                 },
@@ -55,7 +56,7 @@
             "operationType": "SAVE",
             "subResource": "org.sourceid.oauth20.domain.ClientManagerXmlFileImpl",
             "items": [{
-                "stringValue": "true",
+                "stringValue": "false",
                 "id": "MigrationComplete8.4",
                 "type": "STRING"
             }],
