@@ -117,7 +117,7 @@
         },
         {
             "operationType": "SAVE",
-            "subResource": "org.sourceid.oauth20.domain.ClientManagerXmlFileImpl",
+            "subResource": "org.sourceid.oauth20.domain.ClientManagerLdapImpl",
             "items": [{
                 "stringValue": "true",
                 "id": "MigrationComplete8.4",
