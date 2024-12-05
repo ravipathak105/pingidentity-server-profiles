@@ -39,12 +39,12 @@
             "subResource": "org.sourceid.oauth20.domain.ClientManagerLdapImpl",
             "items": [
                 {
-                    "stringValue": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
+                    "stringValue": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
                     "id": "PingFederateDSJNDIName",
                     "type": "STRING"
                 },
                 {
-                    "stringValue": "ou=oauthClients,${USER_BASE_DN}",
+                    "stringValue": "ou=Clients,dc=tsb,dc=co,dc=uk",
                     "id": "SearchBase",
                     "type": "STRING"
                 }
