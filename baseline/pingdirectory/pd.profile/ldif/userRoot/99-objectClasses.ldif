@@ -1,0 +1,7 @@
+dn: cn=schema
+changetype: modify
+add: objectClasses
+objectClasses: ( 1.3.6.1.4.1.42.2.27.8.2.1 NAME 'customPerson'
+  DESC 'Custom Person'
+  SUP inetOrgPerson
+  MUST ( customerId $ hashedCustomerId $ accountType $ memorableWord ) )

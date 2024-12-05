@@ -1,0 +1,7 @@
+dn: cn=schema
+changetype: modify
+add: attributeTypes
+attributeTypes: ( 1.3.6.1.4.1.99999.1 NAME 'customerId' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Custom' )
+attributeTypes: ( 1.3.6.1.4.1.99999.2 NAME 'hashedCustomerId' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Custom' )
+attributeTypes: ( 1.3.6.1.4.1.99999.3 NAME 'accountType' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Custom' X-ALLOWED-VALUES ( 'personal', 'business' ))
+attributeTypes: ( 1.3.6.1.4.1.99999.4 NAME 'memorableWord' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Custom' )
