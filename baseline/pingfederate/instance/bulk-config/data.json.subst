@@ -50,8 +50,15 @@
                 }
             ],
             "resourceType": "/configStore"
-        }
-        ],
+        },
+        {
+            "operationType": "SAVE",
+            "subResource": "org.sourceid.oauth20.domain.ClientManagerXmlFileImpl",
+            "items": [{
+                "stringValue": "true",
+                "id": "MigrationComplete8.4",
+                "type": "STRING"
+        }],
             "resourceType": "/configStore"
         },
         {
