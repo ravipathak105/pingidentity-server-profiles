@@ -1506,18 +1506,18 @@
                 "persistentGrantLifetimeUnit": "DAYS",
                 "scopes": [
                     {
-                        "name": "address",
-                        "description": "Address access",
+                        "name": "PISP",
+                        "description": "PISP",
                         "dynamic": false
                     },
                     {
-                        "name": "phone",
-                        "description": "Phone Number access",
+                        "name": "accounts",
+                        "description": "Accounts",
                         "dynamic": false
                     },
                     {
-                        "name": "edit",
-                        "description": "Edit permissions",
+                        "name": "AISP",
+                        "description": "AISP",
                         "dynamic": false
                     },
                     {
@@ -1531,8 +1531,13 @@
                         "dynamic": false
                     },
                     {
-                        "name": "admin",
-                        "description": "Admin permissions",
+                        "name": "mobile",
+                        "description": "Mobile",
+                        "dynamic": false
+                    },
+ {
+                        "name": "payments",
+                        "description": "Payments",
                         "dynamic": false
                     },
                     {
@@ -1547,7 +1552,7 @@
                     "description": "Directory Delegated Admin",
                     "dynamic": false
                 }],
-                "bypassAuthorizationForApprovedGrants": false
+                "bypassAuthorizationForApprovedGrants": true
             }],
             "resourceType": "/oauth/authServerSettings"
         },
