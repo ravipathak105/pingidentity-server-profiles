@@ -1,0 +1,28 @@
+dn:uid=user.2005,ou=People,dc=tsb,dc=co,dc=uk
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: customPerson
+postalAddress: Adi Chadha$73600 Mash Street$Cincinnati, OH 50563
+description: This is the description for Adi Chadha.
+uid: user.2005
+userPassword: Admin@11
+employeeNumber: 2005
+initials: TBH
+givenName: Adi
+pager: +1 596 232 3321
+mobile: +1 039 311 9878
+cn: Adi Chadha
+sn: Chadha
+telephoneNumber: +1 097 678 9688
+street: 73600 Mash Street
+homePhone: +1 214 233 8484
+l: Cincinnati
+mail: user.2001@maildomain.net
+st: OH
+customerId: 2001
+hashedCustomerId: 2001hashed
+accountType: business
+memorableWord: a8e298ecc495dca366903477200b678a582d9465e7c26dbadd1e6974dba18218
