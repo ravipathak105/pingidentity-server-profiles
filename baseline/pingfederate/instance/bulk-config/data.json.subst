@@ -309,7 +309,7 @@
                     "binaryAttributes": [],
                     "ldapType": "PING_DIRECTORY",
                     "type": "LDAP",
-                    "password": "${dataStores_items_LDAP_LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200_LDAP_LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200_password}",
+                    "password": "${dataStores_items_LDAP_9FE48D365875042040E9ADAC13C6882E93F3A200_LDAP_9FE48D365875042040E9ADAC13C6882E93F3A200_password}",
                     "minConnections": 10,
                     "createIfNecessary": true,
                     "id": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
