@@ -309,10 +309,10 @@
                     "binaryAttributes": [],
                     "ldapType": "PING_DIRECTORY",
                     "type": "LDAP",
-                    "password": "${dataStores_items_LDAP_D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3_LDAP_D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3_password}",
+                    "password": "${dataStores_items_LDAP_LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200_LDAP_LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200_password}",
                     "minConnections": 10,
                     "createIfNecessary": true,
-                    "id": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
+                    "id": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
                     "ldapDnsSrvPrefix": "_ldap._tcp",
                     "connectionTimeout": 3000,
                     "maxConnections": 100,
@@ -328,7 +328,7 @@
                     "testOnBorrow": false,
                     "testOnReturn": false,
                     "readTimeout": 3000,
-                    "name": "pingdirectory",
+                    "name": "LDAP",
                     "userDN": "cn=pingfederate"
                 },
                 {
