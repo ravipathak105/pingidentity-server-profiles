@@ -328,7 +328,7 @@
                     "testOnBorrow": false,
                     "testOnReturn": false,
                     "readTimeout": 3000,
-                    "name": "LDAP",
+                    "name": "pingdirectory",
                     "userDN": "cn=pingfederate"
                 },
                 {
