@@ -80,7 +80,7 @@
             "subResource": "org.sourceid.oauth20.token.AccessGrantManagerLDAPPingDirectoryImpl",
             "items": [
                 {
-                    "stringValue": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
+                    "stringValue": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
                     "id": "PingFederateDSJNDIName",
                     "type": "STRING"
                 },
@@ -142,7 +142,7 @@
                     "type": "STRING"
                 },
                 {
-                    "stringValue": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
+                    "stringValue": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
                     "id": "PingFederateDSJNDIName",
                     "type": "STRING"
                 },
@@ -180,7 +180,7 @@
             "subResource": "org.sourceid.saml20.service.session.data.impl.SessionStorageManagerLdapImpl",
             "items": [
                 {
-                    "stringValue": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
+                    "stringValue": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
                     "id": "PingFederateDSJNDIName",
                     "type": "STRING"
                 },
@@ -514,7 +514,7 @@
                         "fields": [
                             {
                                 "name": "LDAP Datastore",
-                                "value": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3"
+                                "value": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200"
                             },
                             {
                                 "name": "Search Base",
@@ -718,8 +718,8 @@
                     "createPattern": "uid=${mail}",
                     "objectClass": "inetOrgPerson",
                     "dataStoreRef": {
-                        "location": "https://${PF_ADMIN_PUBLIC_HOSTNAME}:${PF_ADMIN_PUBLIC_PORT_HTTPS}/pf-admin-api/v1/dataStores/LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3",
-                        "id": "LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3"
+                        "location": "https://${PF_ADMIN_PUBLIC_HOSTNAME}:${PF_ADMIN_PUBLIC_PORT_HTTPS}/pf-admin-api/v1/dataStores/LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200",
+                        "id": "LDAP-9FE48D365875042040E9ADAC13C6882E93F3A200"
                     },
                     "type": "LDAP",
                     "baseDn": "ou=people,${USER_BASE_DN}",
