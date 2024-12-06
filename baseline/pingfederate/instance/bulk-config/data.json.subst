@@ -1552,7 +1552,7 @@
                     "description": "Directory Delegated Admin",
                     "dynamic": false
                 }],
-                "bypassAuthorizationForApprovedGrants": true
+                "bypassAuthorizationForApprovedGrants": false
             }],
             "resourceType": "/oauth/authServerSettings"
         },
