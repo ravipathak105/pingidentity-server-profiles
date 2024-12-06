@@ -144,7 +144,7 @@
 
     <!-- Service for storing OAuth client configuration. -->
     <service-point id="ClientManager" interface="org.sourceid.oauth20.domain.ClientManager">
-        <invoke-factory model="autoreloadable">
+        <invoke-factory>
             <!--
                 Supported classes are
                         org.sourceid.oauth20.domain.ClientManagerXmlFileImpl            : Use this service-point for a XML implementation.
